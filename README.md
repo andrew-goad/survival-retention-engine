@@ -1,7 +1,7 @@
 # Survival Analysis & Strategic Decision Engine
 **"No Cold Handoffs" — Engineering Zero-Defect, Audit-Ready Results.**
 
-![Survival Analysis Executive Dashboard](https://raw.githubusercontent.com/andrew-goad/survival-retention-engine/main/executive_dashboard_preview.png)
+![Survival Analysis Executive Dashboard](https://raw.githubusercontent.com/andrew-goad/survival-retention-engine/main/docs/executive_dashboard_preview.png)
 
 ---
 
