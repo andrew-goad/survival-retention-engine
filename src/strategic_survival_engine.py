@@ -291,3 +291,4 @@ if __name__ == "__main__":
 
     finally:
         cleanup_temp_files()
+;
