@@ -1,4 +1,4 @@
-# Forensic Growth Engineering: Predictive LTV Expansion & Survival Architecture 📈✨
+# Predictive Growth Engineering: LTV Expansion & Survival Architecture 📈✨
 
 How do you defend **$2M+** in revenue from "Invisible Churn" in high-velocity ecosystems like **Netflix** or **Slack**? It starts with moving from reactive dashboards to **High-Fidelity Growth Engineering**.
 
