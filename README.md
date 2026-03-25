@@ -33,4 +33,13 @@ Technical integrity is automatically translated into boardroom-ready narratives.
 * **Reporting:** `matplotlib` for automated executive storytelling.
 
 ---
+
 **In hyper-growth environments, data integrity isn't just a hurdle—it's the foundation of a defensible revenue strategy.**
+
+---
+
+### 🔒 Integrity & Confidentiality Note
+**Data Privacy:** This repository demonstrates the engineering methodology for predictive growth LTV expansion. All data displayed in visualizations is synthetic.
+
+---
+**Philosophy:** “No Cold Handoffs”—engineering zero-defect, audit-ready results.
