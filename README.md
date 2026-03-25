@@ -1,46 +1,36 @@
-# Survival Analysis & Strategic Decision Engine
-**"No Cold Handoffs" — Engineering Zero-Defect, Audit-Ready Results.**
+# Forensic Growth Engineering: Predictive LTV Expansion & Survival Architecture 📈✨
 
-![Survival Analysis Executive Dashboard](https://github.com/andrew-goad/survival-retention-engine/blob/main/docs/executive_dashboard_preview.png)
+How do you defend **$2M+** in revenue from "Invisible Churn" for companies like **Netflix** or **Slack**? It starts with moving from reactive dashboards to **High-Fidelity Growth Engineering**.
 
----
+I architected this Predictive Survival Suite to identify exactly when a customer runway is at risk and quantify the financial impact of intervention. By merging **K-Means Clustering** for persona-mapping with **Cox Proportional Hazards** for longitudinal modeling, I’ve built a system that doesn't just predict churn—it engineers growth.
 
-### 🛡️ Forensic Data Engineering & Remediation
-**The "Gatekeeper" Philosophy:** Before any modeling occurs, the pipeline executes a mandatory forensic audit. This engine identifies pipeline failures and executes standardized remediation logic to ensure all downstream strategic decisions are regulatory-defendable.
-
-* **Automated Integrity Scanning:** Validates structural compliance and identifies statistical bias across disparate data sources.
-* **Remediation Logic:** Executes Regex standardization, synthetic re-balancing, and dimensionality fixes for non-compliant features.
-* **Audit Trail:** Generates a forensic rationale for every automated fix, providing a transparent lineage for federal oversight or enterprise stakeholders.
+![Growth Engineering Dashboard](https://github.com/andrew-goad/survival-retention-engine/blob/main/docs/executive_dashboard_preview.png)
 
 ---
 
-### 🎯 Strategic Intent: Operational Growth & LTV Expansion
-How do you move from reactive churn management to proactive customer growth and LTV expansion in high-stakes environments? 
+## 🛠️ The Growth-First Framework
 
-I engineered this Python-driven engine to quantify customer **"runway"** and maximize revenue upside. Using **K-Means Clustering** for persona segmentation and **Cox Proportional Hazards** for survival modeling, the system identifies high-growth opportunities with forensic precision.
+### 🛡️ Automated Audit Defense
+Growth analysis is only as good as the underlying data. My engine executes a mandatory **"Audit Defense Ledger"** that identifies and **resolves** pipeline failures before they ever hit the model:
+* **Identification:** Scans for Statistical Bias, Null Density, and Structural Variance.
+* **Remediation:** Automatically applies **Regex Standardization**, **Synthetic Re-balancing**, and **Dimensionality Fixes**.
 
----
+### 🎯 Predictive Runway Modeling
+We move beyond binary churn predictions to measure the **"Customer Runway."** By segmenting the population into high-resolution personas (Enterprise, Mid-Market, Legacy), we can time interventions with surgical precision.
 
-### 📈 Executive "Talk Tracks"
-* **Predicting the Runway:** Instead of asking *if* a customer leaves, we measure *when*. This allows for precisely timed interventions before the point of no return.
-* **Strategic ROI (The What-If Dashboard):** Simulation results show expected "Risk Reduction." A 15% reduction in hazard for a specific segment represents the literal percentage of at-risk revenue successfully defended (e.g., **+$2.1M Defended LTV**).
-* **The Goal:** Anything that **"pushes the curve to the right"** (extending time-to-event) is a measurable financial win for the enterprise.
+### 💰 "Pushing the Curve" to the Right
+Every strategic tweak is stress-tested. By simulating intervention strategies, the suite visualizes the expansion of the retention curve and quantifies the **Defended LTV** (e.g., **+$2.1M**).
 
----
-
-### 🛠️ Technical Rigor & Architecture: The Modeling Pipeline
-
-The engine follows a rigorous four-stage transformation process to ensure every "What-If" scenario is mathematically grounded:
-
-1.  **High-Dimensional Clustering (Segmentation):** Using `scikit-learn` **K-Means**, the engine identifies latent customer personas. This moves the analysis beyond simple demographic filters to behavioral "runways," allowing for high-resolution segmented lifecycles.
-
-2.  **Survival Modeling (The Statistical Core):** The system implements the **Cox Proportional Hazards (CPH)** model. Unlike standard regression, this handles "right-censored" data—customers who haven't had the event yet—ensuring future LTV is not underestimated.
-
-3.  **Hazard Shift Simulation (The ROI Logic):** The `run_scenario_dashboard` function applies proportional hazard multipliers to specific features. By shifting the baseline hazard, the engine calculates the **Delta in Median Survival Time**, which is then converted into the **Defended LTV** metric.
-
-4.  **Automated Artifact Generation:** Using `python-pptx` and `reportlab`, the engine bypasses manual reporting. It maps internal dataframes directly to "Executive-Ready" slides, ensuring the **Forensic Rationale** from the audit ledger is never separated from the strategic recommendation.
+### 📊 No Cold Handoffs
+Technical integrity is automatically translated into boardroom-ready narratives. Results are compiled into executive artifacts (via `python-pptx`), ensuring stakeholders internalize the "Forensic Rationale" behind every strategic pivot.
 
 ---
 
-### 🔒 Integrity & Confidentiality Note
-**Data Privacy:** All data used in this repository is synthetic or anonymized to protect proprietary information. This logic demonstrates the **Forensic Data Engineering** framework and methodology applied to $1B+ enterprise remediation environments.
+## 🚀 Tech Stack & Methodologies
+* **Survival Modeling:** `lifelines` (Cox Proportional Hazards) for longitudinal analysis.
+* **Clustering:** `scikit-learn` (K-Means) for behavioral persona mapping.
+* **Engineering:** `pandas` & `numpy` for forensic data remediation.
+* **Reporting:** `matplotlib` & `python-pptx` for automated executive storytelling.
+
+---
+**In hyper-growth environments, data integrity isn't just a hurdle—it's the foundation of a defensible revenue strategy.**
