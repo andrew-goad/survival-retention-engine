@@ -39,7 +39,8 @@ Technical integrity is automatically translated into boardroom-ready narratives.
 ---
 
 ### 🔒 Integrity & Confidentiality Note
-**Data Privacy:** This repository demonstrates the engineering methodology for predictive growth LTV expansion. All data displayed in visualizations is synthetic.
+**Data Privacy:** All data and visual outputs in this repository are generated from synthetic or anonymized datasets to protect proprietary information. This framework demonstrates the methodology applied to high-stakes enterprise and regulatory environments.
 
 ---
+
 **Philosophy:** “No Cold Handoffs”—engineering zero-defect, audit-ready results.
