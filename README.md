@@ -43,4 +43,4 @@ Technical integrity is automatically translated into boardroom-ready narratives.
 
 ---
 
-**Philosophy:** “No Cold Handoffs”—engineering zero-defect, audit-ready results.
+**Philosophy:** **“No Cold Handoffs”**—engineering zero-defect, audit-ready results to ensure stakeholders internalize the underlying “why.”
