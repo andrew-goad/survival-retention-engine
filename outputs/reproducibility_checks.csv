@@ -1,0 +1,10 @@
+Check,Status,Evidence
+Persona assignments reproducible,PASS,Segment_ID assignments were compared row-for-row under the same seed and configuration.
+CoxPH coefficients reproducible,PASS,Maximum absolute coefficient difference: 0.000e+00.
+Cross-validation evidence reproducible,PASS,Maximum absolute fold concordance difference: 0.000e+00.
+Calibration evidence reproducible,PASS,Maximum absolute calibration difference: 0.000e+00.
+PH diagnostic evidence reproducible,PASS,Maximum absolute raw/adjusted PH p-value difference: 0.000e+00; status match=True.
+Target cohort reproducible,PASS,"Compared 1,875 baseline target IDs with the repeated run."
+Scenario evidence reproducible,PASS,Maximum absolute scenario metric difference: 0.000e+00; directions match=True.
+Predicted survival curves reproducible,PASS,Maximum absolute curve difference: 0.000e+00.
+PH sensitivity evidence reproducible,PASS,Maximum absolute PH sensitivity metric difference: 0.000e+00; categorical evidence match=True.

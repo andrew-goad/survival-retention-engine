@@ -1,0 +1,13 @@
+Feature,Test_Statistic,P_Value,Negative_Log2_P,P_Value_Holm,P_Value_BH,Raw_PH_Status,Holm_PH_Status,BH_PH_Status,PH_Assumption_Status,Review_Rationale,Alpha
+auto_renew_flag,4.843102925209312,0.027756907733565577,5.171009336769982,0.3330828928027869,0.3330828928027869,REVIEW,PASS,PASS,PASS_WITH_RAW_REVIEW,Raw p-value is below alpha but multiplicity-adjusted tests pass; retain as documented review item.,0.05
+enterprise_flag,0.3291874546434329,0.5661379363683652,0.8207744943567198,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+monthly_active_days,0.13551134527633094,0.7127847602781667,0.4884616032942935,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+monthly_active_days_x_product_adoption_count,0.004515617526464295,0.946423802909303,0.07944173643855959,1.0,0.946423802909303,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+onboarding_completion,0.7813640463420427,0.3767242903438962,1.4084190368372813,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+onboarding_completion_sq,0.07635017856422338,0.7823058588763048,0.3541953251901862,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+product_adoption_count,0.5025638481208948,0.47837575061966364,1.0637838352582023,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+service_incidents_90d,0.1470850781952741,0.7013366719245218,0.5118209283758931,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+support_resolution_days,2.701779000745646,0.10023634336291289,3.3185224038900376,1.0,0.6014180601774773,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+support_tickets_90d,0.21174356128040095,0.6454042375333418,0.6317250447224576,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+support_tickets_90d_x_support_resolution_days,1.1335610518786576,0.28701703281548036,1.8007917397659343,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05
+tenure_at_start,0.7514353908593984,0.38602215772479076,1.3732444341240455,1.0,0.8534245733196052,PASS,PASS,PASS,PASS,No feature-level PH review item at the configured alpha.,0.05

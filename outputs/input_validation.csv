@@ -1,0 +1,2 @@
+Severity,Area,Field,Message
+INFO,Event,attrition_event,Observed event rate is 39.52%; right-censoring rate is 60.48%.

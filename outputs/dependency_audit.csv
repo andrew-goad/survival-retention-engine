@@ -1,0 +1,19 @@
+Scenario_Name,Engineered_Feature,Dependency_Type,Source_Features,Pre_Rebuild_Max_Abs_Diff,Post_Rebuild_Max_Abs_Diff,Recalculated,Validation_Status
+No-Change Control,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,0.0,0.0,True,PASS
+No-Change Control,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,0.0,0.0,True,PASS
+No-Change Control,onboarding_completion_sq,SQUARE,onboarding_completion,0.0,0.0,True,PASS
+Onboarding Completion Improvement,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,0.0,0.0,True,PASS
+Onboarding Completion Improvement,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,0.0,0.0,True,PASS
+Onboarding Completion Improvement,onboarding_completion_sq,SQUARE,onboarding_completion,0.18714439999999988,0.0,True,PASS
+Support Resolution Improvement,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,0.0,0.0,True,PASS
+Support Resolution Improvement,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,16.768500000000003,0.0,True,PASS
+Support Resolution Improvement,onboarding_completion_sq,SQUARE,onboarding_completion,0.0,0.0,True,PASS
+Product Adoption Expansion,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,25.38900000000001,0.0,True,PASS
+Product Adoption Expansion,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,0.0,0.0,True,PASS
+Product Adoption Expansion,onboarding_completion_sq,SQUARE,onboarding_completion,0.0,0.0,True,PASS
+Combined Retention Strategy,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,25.38900000000001,0.0,True,PASS
+Combined Retention Strategy,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,16.768500000000003,0.0,True,PASS
+Combined Retention Strategy,onboarding_completion_sq,SQUARE,onboarding_completion,0.18714439999999988,0.0,True,PASS
+Service Friction Stress,monthly_active_days_x_product_adoption_count,INTERACTION,monthly_active_days | product_adoption_count,0.0,0.0,True,PASS
+Service Friction Stress,support_tickets_90d_x_support_resolution_days,INTERACTION,support_tickets_90d | support_resolution_days,16.768500000000003,0.0,True,PASS
+Service Friction Stress,onboarding_completion_sq,SQUARE,onboarding_completion,0.0,0.0,True,PASS

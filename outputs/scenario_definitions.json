@@ -1,0 +1,113 @@
+[
+  {
+    "changes": [],
+    "description": "Apply no feature changes to the baseline target cohort. Expected hazard and survival movement should be zero within numerical tolerance.",
+    "expected_direction": "NEUTRAL",
+    "name": "No-Change Control",
+    "scenario_type": "CONTROL"
+  },
+  {
+    "changes": [
+      {
+        "feature": "onboarding_completion",
+        "lower_bound": 0.0,
+        "operation": "add",
+        "round_digits": 6,
+        "upper_bound": 1.0,
+        "value": 0.1
+      }
+    ],
+    "description": "Increase onboarding completion by 10 percentage points, bounded at 100%, for the baseline top-quartile risk cohort.",
+    "expected_direction": "IMPROVED",
+    "name": "Onboarding Completion Improvement",
+    "scenario_type": "IMPROVEMENT"
+  },
+  {
+    "changes": [
+      {
+        "feature": "support_resolution_days",
+        "lower_bound": 0.25,
+        "operation": "multiply",
+        "round_digits": 4,
+        "upper_bound": 20.0,
+        "value": 0.75
+      }
+    ],
+    "description": "Reduce support resolution time by 25%, with a 0.25-day floor, for the baseline top-quartile risk cohort.",
+    "expected_direction": "IMPROVED",
+    "name": "Support Resolution Improvement",
+    "scenario_type": "IMPROVEMENT"
+  },
+  {
+    "changes": [
+      {
+        "feature": "product_adoption_count",
+        "lower_bound": 1.0,
+        "operation": "add",
+        "round_digits": 0,
+        "upper_bound": 8.0,
+        "value": 1.0
+      }
+    ],
+    "description": "Increase adopted products by one, bounded at eight, for the baseline top-quartile risk cohort.",
+    "expected_direction": "IMPROVED",
+    "name": "Product Adoption Expansion",
+    "scenario_type": "IMPROVEMENT"
+  },
+  {
+    "changes": [
+      {
+        "feature": "onboarding_completion",
+        "lower_bound": 0.0,
+        "operation": "add",
+        "round_digits": 6,
+        "upper_bound": 1.0,
+        "value": 0.1
+      },
+      {
+        "feature": "support_resolution_days",
+        "lower_bound": 0.25,
+        "operation": "multiply",
+        "round_digits": 4,
+        "upper_bound": 20.0,
+        "value": 0.75
+      },
+      {
+        "feature": "product_adoption_count",
+        "lower_bound": 1.0,
+        "operation": "add",
+        "round_digits": 0,
+        "upper_bound": 8.0,
+        "value": 1.0
+      }
+    ],
+    "description": "Apply the onboarding, support-resolution, and product-adoption assumptions together to the same baseline top-quartile risk cohort.",
+    "expected_direction": "IMPROVED",
+    "name": "Combined Retention Strategy",
+    "scenario_type": "IMPROVEMENT"
+  },
+  {
+    "changes": [
+      {
+        "feature": "support_resolution_days",
+        "lower_bound": 0.25,
+        "operation": "multiply",
+        "round_digits": 4,
+        "upper_bound": 20.0,
+        "value": 1.25
+      },
+      {
+        "feature": "service_incidents_90d",
+        "lower_bound": 0.0,
+        "operation": "add",
+        "round_digits": 0,
+        "upper_bound": 8.0,
+        "value": 1.0
+      }
+    ],
+    "description": "Increase support resolution time by 25% and add one service incident, within governed bounds, to verify adverse bidirectional sensitivity for the same cohort.",
+    "expected_direction": "ADVERSE",
+    "name": "Service Friction Stress",
+    "scenario_type": "STRESS"
+  }
+]

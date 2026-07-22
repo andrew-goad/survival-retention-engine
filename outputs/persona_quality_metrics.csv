@@ -1,0 +1,2 @@
+Rows,Clusters,Inertia,Silhouette_Score,Silhouette_Sample_Size,Davies_Bouldin_Index,Calinski_Harabasz_Index,Smallest_Cluster_Rate,Largest_Cluster_Rate,Stability_Mean_ARI,Stability_Min_ARI,Silhouette_Review_Threshold,Persona_Quality_Status
+7500,3,37848.565219620985,0.16083947292961123,2000,1.8751931806180988,1451.0763267622751,0.21986666666666665,0.45453333333333334,0.9920035366313277,0.9799459050984549,0.1,PASS
